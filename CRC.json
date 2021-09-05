@@ -1,0 +1,62 @@
+[
+    {
+      "name": "Recipe",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Store steps of the recipe (as well as modify the list thereof)",
+        "Calculate the total cost of the recipe",
+        "Generate a descriptive text"
+      ],
+      "collaborators": [
+        "Step"
+      ]
+    },
+    {
+      "name": "Step",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Store amount and type of the product used in the step",
+        "Store type of equiment used and time of usage",
+        "Generate a descriptive text",
+        "Calculate total cost of this step"
+      ],
+      "collaborators": [
+        "Product",
+        "Equipment"
+      ]
+    },
+    {
+      "name": "Product",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Store a description",
+        "Store cost per unit",
+        "Generate a descriptive text",
+        "Calculate total cost of a certain amount of the product"
+      ],
+      "collaborators": [
+        ""
+      ]
+    },
+    {
+      "name": "Equipment",
+      "superclasses": "",
+      "subclasses": "",
+      "type": 1,
+      "responsibilities": [
+        "Store a description",
+        "Store cost per hour of usage",
+        "Generate a descriptive text",
+        "Calculate total cost of usage of the equipment"
+      ],
+      "collaborators": [
+        ""
+      ]
+    }
+  ]
